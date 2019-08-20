@@ -13,6 +13,5 @@ Copy+paste the following lines of code into command line:
 
 ```
 git clone https://github.com/danielfitz/webBoilerplate.git
-cd webBoilerplate
-rm -rf .git
+read -p "Enter your repository name: " repoName && mv webBoilerplate $repoName && cd $repoName && rm -rf .git
 ```
