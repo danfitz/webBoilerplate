@@ -5,9 +5,16 @@ This provides basic files and folders for a basic website using HTML, SASS, and 
 Features include:
 1. HTML Skeleton
 2. Folders for images, JavaScript, and CSS
-3. _setup.scss partial for normalize.css, clearfix, border-box, and visuallyHidden
+3. SASS partials already imported into styles.scss file
+    * `_setup.scss` partial for normalize.css, clearfix, border-box, and visuallyHidden
+    * Empty `_typography.scss` partial
+    * Empty `_variables.scss` partial
 
-## Instructions for use
+## Dependencies
+
+This boilerplate uses the VS Code extension [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to compile `styles.scss` to a `styles.css` file.
+
+## Instructions to use
 
 Copy+paste the following lines of code into command line:
 
