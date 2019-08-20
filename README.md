@@ -13,6 +13,6 @@ Copy+paste the following lines of code into command line:
 
 ```
 git clone https://github.com/danielfitz/webBoilerplate.git
-git branch -D master
-git remote remove origin
+cd webBoilerplate
+rm -rf .git
 ```
